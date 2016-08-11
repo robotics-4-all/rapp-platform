@@ -127,6 +127,7 @@ add_service_files(
   /ObjectRecognition/ClearModelsSrv.srv
 
   /VisualLocalization/Localize.srv
+  /VisualLocalization/LocalizeInit.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
