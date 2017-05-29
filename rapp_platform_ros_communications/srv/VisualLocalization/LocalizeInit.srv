@@ -1,0 +1,10 @@
+# Path to the map file
+string user
+string map
+
+---
+
+string error
+
+# ID of the started localization service
+int8 id

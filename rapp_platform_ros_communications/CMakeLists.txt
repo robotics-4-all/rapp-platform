@@ -39,6 +39,7 @@ add_service_files(
   /CognitiveExercise/returnTestsOfTypeSubtypeDifficultySrv.srv
 
   /HumanDetection/HumanDetectionRosSrv.srv
+  /FaceRecognition/FaceRecognitionRosSrv.srv
 
   /CaffeWrapper/imageClassificationSrv.srv
   /CaffeWrapper/ontologyClassBridgeSrv.srv
@@ -125,6 +126,9 @@ add_service_files(
   /ObjectRecognition/LearnObjectSrv.srv
   /ObjectRecognition/LoadModelsSrv.srv
   /ObjectRecognition/ClearModelsSrv.srv
+
+  /VisualLocalization/Localize.srv
+  /VisualLocalization/LocalizeInit.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
