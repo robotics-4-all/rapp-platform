@@ -125,6 +125,7 @@ add_service_files(
   /ObjectRecognition/FindObjectsSrv.srv
   /ObjectRecognition/LearnObjectSrv.srv
   /ObjectRecognition/LoadModelsSrv.srv
+  /ObjectRecognition/LoadKeywordsSrv.srv
   /ObjectRecognition/ClearModelsSrv.srv
 
   /VisualLocalization/Localize.srv
